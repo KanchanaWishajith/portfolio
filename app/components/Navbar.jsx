@@ -30,6 +30,10 @@ const Navbar = () => {
             <a href="#contact" className='hidden lg:flex items-center gap-3 px-10
             py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo' >Contact<Image src={assets.
             arrow_icon} alt="" className='w-3'/></a>
+
+            <button className='block md:hidden ml-3'>
+              <Image src={assets.menu_black} alt="" className='w-6'/>
+            </button>
         </div>
     </nav>
     </>
