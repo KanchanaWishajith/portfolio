@@ -1,8 +1,19 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
-import React from 'react'
+import React, { useRef } from 'react'
+
 
 const Navbar = () => {
+
+  const sideMenuref = useRef();
+  
+  const openMenu = () => {
+    sideMenuref.current.style.transform = 'translateX(-16rem)';
+  }
+  const closeMenu = () => {
+    sideMenuref.current.style.transform = 'translateX(16rem)';
+  }  
+
   return (
     <>
     <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
@@ -31,13 +42,35 @@ const Navbar = () => {
             py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo' >Contact<Image src={assets.
             arrow_icon} alt="" className='w-3'/></a>
 
-            <button className='block md:hidden ml-3'>
+            <button className='block md:hidden ml-3' onClick={openMenu}>
               <Image src={assets.menu_black} alt="" className='w-6'/>
             </button>
         </div>
+        
+
+        {/* Mobile Menu */}
+        <ul ref={sideMenuref} className='flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64
+        top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transition duration-500'>
+          
+
+          <div className='absolute top-6 right-6' onClick={closeMenu}>
+          <img src={assets.close_black} alt='' className='w-5 cursor-pointer' />
+          </div>
+
+            <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href='#about'>About me</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href='#services'>Services</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href='#work'>My Work</a></li>
+            <li><a className='font-Ovo' onClick={closeMenu} href='#contact'>Contact me</a></li>
+        </ul>
+
+
+
     </nav>
     </>
   )
 }
 
 export default Navbar
+
+//34.20
