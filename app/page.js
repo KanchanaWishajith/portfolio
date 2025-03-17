@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
     <Navbar />
-
     <Header />
     <About />
     </>
