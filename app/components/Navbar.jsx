@@ -54,7 +54,7 @@ const Navbar = () => {
           
 
           <div className='absolute top-6 right-6' onClick={closeMenu}>
-          <img src={assets.close_black} alt='' className='w-5 cursor-pointer' />
+          <Image src={assets.close_black} alt='' className='w-5 cursor-pointer' />
           </div>
 
             <li><a className='font-Ovo' onClick={closeMenu} href='#top'>Home</a></li>
