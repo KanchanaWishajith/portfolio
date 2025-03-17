@@ -9,7 +9,7 @@ export default {
         colors: {
           lightHover: '#fcf4ff',
           darkHover: '#2a004a',
-          darktheme: '#11001f',
+          darktheme: '#121212',
         },
         fontFamily: {
           Outfit: ['Outfit', 'sans-serif'],
@@ -25,6 +25,7 @@ export default {
             },   
       },
     },
+    darkMode: 'selector',
     plugins: [],
   };
   

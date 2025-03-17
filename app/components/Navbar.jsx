@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, {useEffect, useRef, useState } from 'react'
 
 
-const Navbar = () => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
   const [isScroll, setIsScroll] = useState(false)
   const sideMenuref = useRef();
@@ -28,7 +28,8 @@ useEffect(() => {
 
   return (
     <>
-    <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
+    <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]
+    dark:hidden'>
       <Image src={assets.header_bg_color} alt='' className='w-full'/>
     </div>
     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
@@ -47,8 +48,8 @@ useEffect(() => {
             <li><a className='font-Ovo'href='#contact'>Contact me</a></li>
         </ul>  
         <div className='flex items-center gap-4'>
-            <button>
-              <Image src={assets.moon_icon} alt="" className='w-6'/>
+            <button onClick={() => setIsDarkMode(prev => !prev)}>
+              <Image src={isDarkMode ? assets.send_icon : assets.moon_icon} alt="" className='w-6'/>
             </button>
 
             <a href="#contact" className='hidden lg:flex items-center gap-3 px-10
