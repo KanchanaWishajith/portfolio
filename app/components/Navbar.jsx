@@ -73,4 +73,3 @@ const Navbar = () => {
 
 export default Navbar
 
-//34.20

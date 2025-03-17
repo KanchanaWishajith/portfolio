@@ -26,7 +26,8 @@ function About() {
             {infoList.map(({icon, iconDark, title, description},
                 index)=>(
                     <li className='border-[0.5px] border-gray-400
-                    rounded-xl p-6 cursor-pointer' key={index}>
+                    rounded-xl p-6 cursor-pointer hover:bg-lightHover
+                    hover:-translate-y-1 duration-500 hover:shadow-black' key={index}>
                         
                         <image src={icon} alt={iconDark} className='w-7 mt-3'/>
                         <h3 className='my-4 font-semibold text-gray-700'>{title}</h3>
@@ -44,4 +45,4 @@ function About() {
 }
 
 export default About
-//1:00:58
+
