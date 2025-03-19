@@ -29,8 +29,13 @@ const Services = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ delay: 0.7, duration: 0.5 }}
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am a Software Engineer...</motion.p>
+      className='text-center max-w-3xl mx-auto mt-5 mb-12 font-Ovo'>
+🔹 Web Development – Building responsive and dynamic websites using Next.js, React, and Laravel.<br />
+🔹 Mobile App Development – Creating cross-platform mobile applications with Flutter and React Native.<br />
+🔹 Game Development – Developing engaging 2D games in Unity, incorporating physics-based mechanics.<br />
+🔹 Software Development – Designing and implementing scalable software solutions using JavaScript, MongoDB, and MySQL.<br />
+🔹 IT Auditing & Security – Conducting IT audits and ensuring compliance with security best practices.<br />
+🔹 Community & Tech Consulting – Offering guidance on tech-driven projects, including IEEE initiatives and community solutions.</motion.p>
 
         <motion.div
         initial={{ opacity: 0 }}

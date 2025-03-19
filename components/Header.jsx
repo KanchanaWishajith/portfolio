@@ -31,7 +31,12 @@ const Header = () => {
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        I am a software engineer with a passion for web development. I specialize in building responsive, user-friendly websites and web applications. I am proficient in HTML, CSS, JavaScript, React, and Node.js. I am also experienced in working with databases, APIs, and version control systems. I am a quick learner and a team player who is always eager to learn new technologies and take on new challenges.
+        Motivated and self-driven Software Engineering student with hands-on experience in web development, 
+        mobile app development, game development, and IT auditing. Proven ability to lead and contribute to 
+        technology-driven projects, focusing on user experience, real-time functionality, and seamless system 
+        integration. Skilled in leveraging cutting-edge technologies, including machine learning and data warehousing, 
+        to solve complex challenges. Passionate about innovation, software architecture, and delivering impactful digital 
+        solutions through efficient and scalable development practices.
         </motion.p>
 
         <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

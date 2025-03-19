@@ -42,7 +42,11 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
                 <p className='mb-10 max-w-2xl font-Ovo'
-                >I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                >I am W.K.W. Samarasinghe, a passionate Software Engineering student at Sabaragamuwa University of Sri Lanka. 
+                With experience in web and mobile development, game development, and IT auditing, I enjoy building innovative 
+                solutions that enhance user experiences. My expertise includes Next.js, React, Laravel, MongoDB, and Unity 2D, 
+                and I am always eager to explore new technologies. As a volunteer coordinator at IEEE, I also enjoy collaborating 
+                on tech-driven community projects.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}
