@@ -91,6 +91,4 @@ const About = ({isDarkMode}) => {
   )
 }
 
-export default About
-
-//dfghjkoiuydsdfghjk
+export default About;

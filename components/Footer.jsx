@@ -18,7 +18,7 @@ const Footer = ({isDarkMode}) => {
         <p>© 2025 KanchanaWishwajith. All rights reserved.</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li><a target='_blank' href="https://github.com/KanchanaWishajith">GitHub</a></li>
-            <li><a target='_blank' href="www.linkedin.com/in/kanchana-wishwajith-bb953b248">LinkedIn</a></li>
+            <li><a target='_blank' href="https://www.linkedin.com/in/kanchana-wishwajith-bb953b248">LinkedIn</a></li>
             <li><a target='_blank' href="https://x.com/KanchanaWishwajith">X</a></li>
         </ul>
     </div>
