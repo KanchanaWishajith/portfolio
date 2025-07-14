@@ -6,7 +6,7 @@ This project is built using [Next.js](https://nextjs.org/) and showcases my skil
 ## 🔗 Live Demo
 
 🌍 [View Portfolio Live](https://portfolio-az2s.vercel.app/)  
-(Replace this link with your deployed site)
+
 
 ## 🛠️ Tech Stack
 
